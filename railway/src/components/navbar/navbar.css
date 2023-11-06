@@ -1,0 +1,87 @@
+.navbar{
+height: 80px;
+display: flex;
+justify-content: center;
+
+}
+
+.navContainer{
+width: 100%;
+max-width: 1024px;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo{
+font-weight: 500; 
+display: flex;
+/* align-items: end; */
+
+}
+
+
+
+.newButton{
+margin-left: 20px;
+border: none;
+padding: 5px 10px;
+cursor: pointer;
+color: #298000;
+}
+
+/* navbar.css */
+
+  .navItems {
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+  }
+  
+  .navLinkButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: #333; /* Adjust the color as needed */
+    position: relative;
+  }
+  
+  .navLink::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; /* Adjust the thickness of the underline */
+    background-color: #007bff; /* Adjust the color of the underline */
+    transition: width 0.3s ease;
+  }
+  
+  .navLink:hover::before {
+    width: 100%;
+  }
+  /* Style the link inside the button */
+.navLink {
+  text-decoration: none;
+  color: #ffffff; /* Text color */
+}
+
+/* Style the button */
+button {
+  background-color: transparent; /* Transparent background */
+  border: 2px solid white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+/* Hover effect */
+button:hover .navLink {
+  color: #eaedf0; /* Change text color on hover */
+}

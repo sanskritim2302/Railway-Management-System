@@ -1,0 +1,154 @@
+body{
+    background-image: url("train.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 410px;
+}
+.header{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin:20px 0px 100px 0px;
+}
+.headerContainer.listMode{
+    margin:20px 0px 0px 0px;
+}
+
+.headerList{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headerListItem{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerListItem.active{
+    border: 1px solid white;
+    padding:10px;
+    border-radius: 20px;
+}
+
+.headerDesc{
+    margin:20px 0px;
+}
+
+.headerBtn{
+    background-color:  #c149fd;
+    color: white;
+    padding:10px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.headerSearch{
+    height: 30px;
+    width: 130%;
+    max-width: 1024px;
+    background-color: white;
+    display: flex;
+    border: 3px solid #ba36e6;
+    border-radius: 5px;
+    justify-content:space-around;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -25px;
+}
+
+.headerSearchItems{
+    display: flex;
+    align-items: center;
+    /* gap: 10px;
+    height:5%; */
+
+}
+
+.headerIcon{
+    color:lightgray;
+}
+
+.headerSearchInput{
+    display: flex;
+    border: none;
+    outline: none;
+}
+
+.headerSearchText{
+    color: gray;
+    cursor: pointer;
+}
+
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+.options{
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.4);
+    z-index: 2;
+}
+.optionItem{
+width: 200px;
+display: flex;
+justify-content: space-between;
+margin: 10px;
+}
+.optionCounter{
+    display: flex;
+    align-items: center;   
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+.optionCounterButton{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #c149fd;
+    color: #c149fd;
+    background-color: white;
+    cursor: pointer;
+}
+.optionCounterButton:disabled{
+    cursor: not-allowed;
+}
+/* Remove underline from the link */
+.train {
+    text-decoration: none;
+  }
+  
+  /* Style the link as a button */
+  .train {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #f8fcff; /* Border color */
+    color: #f8f8f9; /* Text color */
+    background-color: transparent; /* Background color */
+    border-radius: 20px; /* Border radius for rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Transition effect */
+  }
+  
+  /* Hover effect */
+  .train:hover {
+    background-color:  #c149fd;
+    color: #fff;
+  }
+  
